@@ -1,0 +1,491 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This will include padding and border in the element's total width/height */
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D5BF86;
+}
+
+h2 {
+    font-size: 2.1875rem;
+    color: #D5BF86;
+}
+
+h3 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    color: #A71D31;
+}
+
+h4 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    color: #D5BF86;
+}
+
+a {
+    transition: all .2s linear;
+    color: #D5BF86;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #cccccc;
+}
+
+.container-nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    background-color: #A71D31;
+}
+
+.container-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;  
+    text-align: center; 
+  }
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    margin: 0 auto;
+    max-width: 1470px;
+    background-color: #F1F0CC;
+}
+
+.container-location {
+    width: 50%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 1470px;
+    background-color: #F1F0CC;
+}
+
+nav {
+    display: block;
+    max-width: 100%;
+    height: 85px;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    padding: 5px 5px;
+    font-size: 25px;
+}
+
+.menu.menu-right {
+    float: right;
+}
+
+ul.menu>li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+.banner {
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+
+    padding: 350px 0px;
+
+    position: relative;
+}
+
+.banner-content {
+    height: 40px;
+    width: 620px;
+    padding: 5px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 200px;
+
+    background-color: rgba(213, 191, 134, 0.626);
+    color: #A71D31;
+    text-align: center;
+
+    border-radius: 15px;
+    border: 2px solid #8D775F;
+}
+
+.banner-content button {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    border-radius: 10px;
+}
+
+.menu-container {
+    background-image: url('/images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    max-width: 700px;
+}
+
+.menu-overlay h3 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #A71D31;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu-overlay h4 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFD700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.menu-list li {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.menu-list li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.02);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+table {
+    border-collapse: collapse;
+    
+}
+
+th {
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+}
+
+td {
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: #F1F0CC;
+}
+tr:nth-child(even) {
+    background-color: #D5BF86;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #A71D31;
+    box-shadow: 0 0 5px rgba(167, 29, 49, 0.5);
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 120px;
+}
+.form-group button {
+    background-color: #A71D31;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.form-group button:hover {
+    background-color: #8D1A2D;
+}
+
+.containerFlex {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    gap: 40px; 
+    padding: 40px;
+    background-color: #F1F0CC;
+}
+
+.left-section, .right-section {
+    width: 48%; 
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+}
+
+.left-section {
+    background-color: #f4f4f4;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.right-section {
+    background-color: #f4f4f4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-section img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+
+  }
+
+  .container-footer {
+    display: flex; 
+    justify-content: center; 
+    gap: 150px; 
+    padding: 20px;
+    border-top: 2px solid black;
+    background-color: #A71D31;
+    color: #D5BF86;
+  }
+
+  .info {
+    padding-top: 40px;
+    color: #D5BF86;
+  }
+
+  .list-footer {
+    padding: 5px;
+    color: #D5BF86;
+  }
+
+  .list-footer > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .list-footer > li :hover {
+    text-decoration: underline;
+  }
+
+.info > .containerFlex {
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    position: relative;
+    top: -150px;
+
+    background-color: #D5BF86;
+    color: #A71D31;
+    border: 3px solid #8D775F;
+    border-radius: 15px;
+
+    height: 325px;
+    width: 275px;
+
+}
+
+.card > .content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card button {
+    background-color: rgb(220, 220, 220);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 25px;
+    bottom: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #8D775F
+    
+}
+
+
+
+@media (max-width: 768px) {
+ 
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .menu.menu-right {
+        float: none;
+    }
+    
+    ul.menu > li {
+        display: block;
+        padding: 10px;
+    }
+
+ 
+    .containerFlex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .right-section img {
+        max-width: 100%;
+    }
+
+   
+    .form-group input, 
+    .form-group textarea {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+
+    .form-group button {
+        font-size: 18px;
+        padding: 14px 20px;
+    }
+
+
+    .menu-container {
+        padding: 20px;
+    }
+
+    .menu-overlay {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .menu-list li {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .info > .containerFlex {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

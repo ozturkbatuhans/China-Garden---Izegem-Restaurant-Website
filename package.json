@@ -1,0 +1,27 @@
+{
+  "name": "opdracht-scope-document-projectvoorbereiding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js -e js,json,handlebars,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SybrenVD/opdracht-scope-document-projectvoorbereiding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SybrenVD/opdracht-scope-document-projectvoorbereiding/issues"
+  },
+  "homepage": "https://github.com/SybrenVD/opdracht-scope-document-projectvoorbereiding#readme",
+  "description": "Deel 1: Scope document:",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "nodemon": "^3.1.9"
+  }
+}

@@ -1,0 +1,34 @@
+<section class="contact">
+    <div class="container">
+        <h3>{{title}}</h3>
+        <div class="containerFlex">
+            <div class="left-section">
+                <form action="/contact" method="POST">
+                    <div class="form-group">
+                        <label for="name">Naam:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Bestelling:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <div>
+                        <p>Als je allergisch bent voor bepaalde ingrediënten, geef dit dan gerust aan bij je bestelling.</p>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="right-section">
+                <img class="image" src="images/restaurant.jpg">
+            </div>
+        </div>
+    </div>
+</section>

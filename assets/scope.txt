@@ -1,0 +1,39 @@
+﻿Deel 1: Scope document:
+
+
+Doelstelling: Een restaurant website is een digitale presentatie, waar bezoekers essentiële informatie kunnen vinden over het restaurant, het menu en de contactgegevens. Deze website heeft als doel om klanten te informeren over de diensten van het restaurant en hen de mogelijkheid te bieden om online een reservering te maken. 
+Voorbeeld: (Meeneemrestaurant China Garden Izegem)
+https://everybody-wommelgem.be/china-garden-izegem/
+
+
+Functionaliteiten: Nav menu naar verschillende pages (home, menu, location, about, contact-reservation)
+
+
+Afbakening: Het project richt zich uitsluitend op de ontwikkeling van een informatieve en interactieve website voor één restaurant.
+* Binnen de scope:
+   * Een statische website met interactieve elementen zoals een reserveringsformulier.
+   * De mogelijkheid om reserveringsaanvragen via e-mail te verzenden.
+   * Een overzichtelijke menupagina met gerechten en prijzen.
+* Buiten de scope:
+   * Online betalingen en een backend-database.
+   * Een volledig geautomatiseerd reserveringssysteem met real-time beschikbaarheidscontrole.
+   * Database
+
+
+Stakeholders: 
+Gebruikers: Klanten die informatie zoeken over het restaurant en een tafel willen reserveren.
+Restaurantbeheer: De eigenaar en het personeel die de website gebruiken om klanten te informeren en reserveringen te ontvangen.
+Ontwikkelteam: Ons team die instaan voor de technische realisatie van de website.
+Ons Team: Sybren, Batu, Ke, Pavel, Aleksandra
+
+
+Planning&Deadlines: 
+Fase 1: Structuur en design opstellen, basispagina’s ontwikkelen.
+Fase 2: Functionaliteiten implementeren, testen en afronden.
+– We verwachten 10 werkdagen, 4 uur per dag nodig te hebben om het project af te maken.
+
+
+Risico’s: 
+-Beperkte backend-mogelijkheden
+-Design
+-Tijd

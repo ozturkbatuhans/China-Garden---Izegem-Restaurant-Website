@@ -1,0 +1,36 @@
+<div class="menu-container">
+    <div class="menu-overlay">
+        <h3>{{title}}</h3>
+
+        <h4>Soepen</h4>
+        <ul class="menu-list">
+            {{#each soepen}}
+            <li><strong>{{name}}</strong> - {{price}}</li>
+            {{/each}}
+        </ul>
+
+            <h4>Voorgerechten</h4>
+        <ul class="menu-list">
+            {{#each voorgerechten}}
+            <li><strong>{{name}}</strong> - {{price}}</li>
+            {{/each}}
+        </ul>
+
+        <h4>Hoofdgerechten</h4>
+        <ul class="menu-list">
+            {{#each hoofdgerechten}}
+            <li><strong>{{name}}</strong> - {{price}}</li>
+            {{/each}}
+        </ul>
+
+    
+        <h4>Nasi gerechten</h4>
+        <ul class="menu-list">
+            {{#each nasi_gerechten}}
+            <li><strong>{{name}}</strong> - {{price}}</li>
+            {{/each}}
+        </ul>
+
+
+    </div>
+</div>
